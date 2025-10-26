@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">ShopEasy</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="logout" onclick="Logout()">Log Out</button>
+            <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Welcome to ShopEasy</h1>
+            <p>Shop the latest trends with ease!</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="products" class="products-section">
+        <h2>Featured Products</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_l8cZi_U2HkFdzAaZPABhw6C8dC6GAhMYsA&s" alt="Product 1">
+                <h3>Apple</h3>
+                <p>Mobile</p>
+                <p>₹56,000</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2022/11/YV/ZF/YO/116453489/white-casual-shoes-for-men.jpg" alt="Product 1">
+                <h3>Nike sports</h3>
+                <p>shoes</p>
+                <p>₹4,000</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://img3.exportersindia.com/product_images/bc-full/2023/9/4909789/grocery-items-1506570477-3361265.jpg" alt="Product 1">
+                <h3>Groceries combo pack</h3>
+                <p>groceries</p>
+                <p>₹5,000</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://www.tencom.com/hubfs/sports-1.jpeg" alt="Product 1">
+                <h3>Sports Combo products</h3>
+                <p>sports</p>
+                <p>₹15,000</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/71u3F2NZ9gL.jpg" alt="Product 1">
+                <h3>kashmir wood furniture</h3>
+                <p>Furniture</p>
+                <p>₹30,000</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-ferarcosn-190819.jpg&fm=jpg" alt="Product 2">
+                <h3>Rolex</h3>
+                <p>watch</p>
+                <p>₹26,000</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoIPfPNUpB8S2QJEfKNnqNYZPPQKXR1LYvtQ&s" alt="Product 3">
+                <h3>hp envy360</h3>
+                <p>Laptop</p>
+                <p>₹78,000</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://files.vplak.com/500-images/jbl/BAR-5.1/black/image-1.jpg" alt="Product 3">
+                <h3>JBl 200watts</h3>
+                <p>Sound Bar</p>
+                <p>₹31,000</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <section id="products" class="products-section">
+        <h2>Watches</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwf3ad6f59/images/Fastrack/Catalog/3039SM03_1.jpg?sw=800&sh=800" alt="product 1">
+                <h3>fastrack</h3>
+                <p>Watch</p>
+                <p>₹11,000</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ0g0p676-vgHmGZanBPsH5N9Nm8TuNx9h9g&s" alt="Product 2">
+                <h3>rolex</h3>
+                <p>watch</p>
+                <p>₹21,000</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRILzyWeTlic8o8urR1CpCchVeiZyeWZkA8OQ&s" alt="Product 3">
+                <h3>Timex</h3>
+                <p>Watch</p>
+                <p>₹8,000</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+                <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl-BdNh-OJwtOLr7Ab3QsN6O0sq3bOsU9KoA&s" alt="Product 3">
+                <h3>Patek philippe</h3>
+                <p>Watch</p>
+                <p>₹1,50,000</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <section id="products" class="products-section">
+        <h2>Mobiles</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/mobile/b/z/a/-original-imagymagnckhyx6d.jpeg?q=20&crop=false" alt="product 1">
+                <h3>Realme 12 pro+ 5G</h3>
+                <p>Mobile</p>
+                <p>₹29,999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://media.takealot.com/covers_images/fd2236e6527b4ed09da3e0165ee305d5/s-pdpxl.file" alt="product 1">
+                <h3>Samsung s24 Ultra</h3>
+                <p>Mobile</p>
+                <p>₹1,49,999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://www.apple.com/newsroom/images/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/article/geo/Apple-iPhone-16-finish-lineup-geo-240909_big.jpg.large.jpg" alt="product 1">
+                <h3>iphone 16</h3>
+                <p>Mobile</p>
+                <p>₹69,999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://www.giztop.com/media/catalog/product/cache/dc206057cdd42d7e34b9d36e347785ca/x/1/x100-blue-1.jpg" alt="product 1">
+                <h3>Vivo X100 pro</h3>
+                <p>Mobile</p>
+                <p>₹89,999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <section id="products" class="products-section">
+        <h2>Laptop</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c08192495_34.png" alt="product 1">
+                <h3>hp victus i5</h3>
+                <p>Laptop</p>
+                <p>₹79,999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/computer/i/7/r/latitude-3420-business-laptop-dell-original-imagn6hrwnczrmzv.jpeg?q=90&crop=false" alt="product 1">
+                <h3>Dell intel core 17</h3>
+                <p>Laptop</p>
+                <p>₹69,999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://www.reliancedigital.in/medias/Lenovo-Yoga-Laptop-494351836-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w2Mzk3MHxpbWFnZS9qcGVnfGltYWdlcy9oODMvaDJmLzEwMTAxNTEwODk3Njk0LmpwZ3wzMjA1YTQ2YTc1OWIxYjY1MDI0NDhjNWJlMzRiOTNhYWUyYTM1NTQyOGYxY2ZjOGQ4MmQyMzcwZjRjMjlkYjkw" alt="product 1">
+                <h3>Lenovo IP3 25IN Laptop</h3>
+                <p>Laptop</p>
+                <p>₹59,999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://www.asus.com/media/global/gallery/UZVzoQ4upz9E5Af8_setting_xxx_0_90_end_2000.png" alt="product 1">
+                <h3>ASUS Vivobook 14 X412</h3>
+                <p>Laptopz</p>
+                <p>₹79,999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <div class="contact-section" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-details">
+                    <h3>Get In Touch</h3>
+                    <p><strong>Address:</strong> 123 Main Street, City, Country</p>
+                    <p><strong>Email:</strong> contact@shopeasy.com</p>
+                    <p><strong>Phone:</strong> +123 456 7890</p>
+                    <div class="social-media">
+                        <i class="fa-brands fa-facebook fa-2x"></i> &nbsp;
+                        <i class="fa-brands fa-twitter fa-2x"></i> &nbsp;
+                        <i class="fa-brands fa-linkedin-in fa-2x"></i> &nbsp;
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="LoginPage.js"></script>
+</body>
+</html>
